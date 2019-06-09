@@ -6,7 +6,7 @@
 $a = 3;
 $b = 7;
 
-echo $a+$b;
+echo $a+$b."\n";
 
 
 
@@ -26,7 +26,7 @@ $array_month = [
     "12月"
     ];
 
-echo $array_month[7];
+echo $array_month[7]."\n";
 
 
 
@@ -35,7 +35,7 @@ $hello = "Hello";
 $name = "SHURI";
 $world = "'s World!";
 
-echo $hello.$name.$world;
+echo $hello.$name.$world."\n";
 
 
 
@@ -43,7 +43,7 @@ echo $hello.$name.$world;
 $tech_boost = "tech";
 $tech_boost .= "boost";
 
-echo $tech_boost;
+echo $tech_boost."\n";
 
 
 
@@ -90,4 +90,4 @@ $calendar_2019 = [
 ];
 
 // 12月を表示する
-echo $calendar_2019["December"];
+echo $calendar_2019["December"]."\n";
